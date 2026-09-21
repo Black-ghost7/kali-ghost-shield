@@ -18,12 +18,12 @@
 ## تثبيت المشروع من GitHub
 
 ```bash
-git clone https://github.com/USERNAME/kali-ghost-shield.git
+git clone https://github.com/Black-ghost7/kali-ghost-shield.git
 cd kali-ghost-shield
 chmod +x kali-ghost-shield.sh
 ```
 
-استبدل `USERNAME` باسم حساب GitHub الخاص بك.
+
 
 ## قبل التشغيل
 
