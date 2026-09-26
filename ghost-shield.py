@@ -399,12 +399,14 @@ def change_location(real_country):
     print(f"{CYAN}[→] اختيار دولة خروج جديدة: {fake_country}{NC}")
 
     torrc_content = f"""SocksPort 9050
+DNSPort 53
 ControlPort 9051
 CookieAuthentication 0
 ExitNodes {{{fake_country}}}
 StrictNodes 0
 AvoidDiskWrites 1
 SafeLogging 1
+AutomapHostsOnResolve 1
 """
     try:
         with open("/etc/tor/torrc", "w") as f:
